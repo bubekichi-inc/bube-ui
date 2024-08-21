@@ -14,7 +14,7 @@ pnpm add @bubekichi-inc/bube-ui
 import components in your component
 
 ```js
-import { WizTextButton } from "@bubekichi-inc/bube-ui";
+import { BubeTextButton } from "@bubekichi-inc/bube-ui";
 ```
 
 ## Contributing
