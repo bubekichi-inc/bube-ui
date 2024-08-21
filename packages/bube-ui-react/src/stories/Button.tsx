@@ -37,6 +37,13 @@ export const Button = ({
   const mode = primary
     ? "storybook-button--primary"
     : "storybook-button--secondary";
+
+  const a = () => {};
+  const TalkAke = "aaaa";
+
+  console.log(TalkAke);
+
+  a();
   return (
     <button
       type="button"
