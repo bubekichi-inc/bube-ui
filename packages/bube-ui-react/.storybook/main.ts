@@ -1,6 +1,7 @@
 import { join, dirname } from "path";
 
 import type { StorybookConfig } from "@storybook/react-vite";
+import type { Options } from "@swc/core";
 
 /**
  * This function is used to resolve the absolute path of a package.
@@ -23,6 +24,12 @@ const config: StorybookConfig = {
   framework: {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
+  },
+  swc: (config: Options, _options): Options => {
+    return {
+      ...config,
+      // Apply your custom SWC configuration
+    };
   },
 };
 export default config;

@@ -23,6 +23,7 @@
     "@storybook/addon-onboarding": "^8.2.9",
     "@storybook/blocks": "^8.2.9",
     "@storybook/test": "^8.2.9",
+    "@swc/core": "^1.7.14",
     "@types/eslint": "^9.6.0",
     "@typescript-eslint/eslint-plugin": "^8.2.0",
     "@typescript-eslint/parser": "^8.2.0",

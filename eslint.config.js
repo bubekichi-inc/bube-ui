@@ -59,6 +59,10 @@ export default tseslint.config(
       "no-useless-return": "warn",
       "no-var": "warn",
       "@typescript-eslint/no-empty-function": "warn",
+      "@typescript-eslint/no-unused-vars": [
+        "warn",
+        { argsIgnorePattern: "^_" },
+      ],
       yoda: "warn",
       "import/order": [
         "error",

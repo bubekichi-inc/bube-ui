@@ -29,6 +29,9 @@ importers:
       '@storybook/test':
         specifier: ^8.2.9
         version: 8.2.9(storybook@8.2.9(@babel/preset-env@7.25.3(@babel/core@7.25.2)))
+      '@swc/core':
+        specifier: ^1.7.14
+        version: 1.7.14
       '@types/eslint':
         specifier: ^9.6.0
         version: 9.6.0
