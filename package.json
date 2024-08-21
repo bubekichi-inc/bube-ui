@@ -1,5 +1,6 @@
 {
   "name": "bube-ui",
+  "type": "module",
   "packageManager": "pnpm@9.7.1",
   "scripts": {
     "dev": "turbo dev --parallel",
