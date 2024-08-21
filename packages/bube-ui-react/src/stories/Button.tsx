@@ -41,9 +41,7 @@ export const Button = ({
   const a = () => {};
   const aaaaa = "aaaa";
 
-            console.log(aaaaa);
-
-
+  console.log(aaaaa);
 
   a();
   return (
