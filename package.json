@@ -10,12 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "turbo": "^2.0.14",
     "@storybook/addon-essentials": "^8.2.9",
     "@storybook/addon-interactions": "^8.2.9",
     "@storybook/addon-links": "^8.2.9",
     "@storybook/addon-onboarding": "^8.2.9",
     "@storybook/blocks": "^8.2.9",
-    "@storybook/test": "^8.2.9"
+    "@storybook/test": "^8.2.9",
+    "turbo": "^2.0.14",
+    "prettier": "^3.3.3"
   }
 }
