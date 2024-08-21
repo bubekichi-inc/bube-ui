@@ -4,6 +4,7 @@ import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import tseslint from "typescript-eslint";
 import _import from "eslint-plugin-import";
+import unUsedImports from "eslint-plugin-unused-imports";
 
 export default tseslint.config(
   { ignores: ["dist"] },
@@ -18,6 +19,7 @@ export default tseslint.config(
       "react-hooks": reactHooks,
       "react-refresh": reactRefresh,
       import: _import,
+      "unused-imports": unUsedImports,
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
@@ -93,6 +95,7 @@ export default tseslint.config(
         "error",
         { prefer: "type-imports" },
       ],
+      "unused-imports/no-unused-imports": "error",
     },
   }
 );
