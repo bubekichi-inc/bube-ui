@@ -1,4 +1,4 @@
-# Wiz UI
+# bube ui
 
 Original components library for bubekichi inc.
 
