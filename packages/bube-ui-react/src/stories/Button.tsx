@@ -1,4 +1,3 @@
-import React from "react";
 import "./button.css";
 
 export interface ButtonProps {
@@ -38,12 +37,6 @@ export const Button = ({
     ? "storybook-button--primary"
     : "storybook-button--secondary";
 
-  const a = () => {};
-  const aaaaa = "aaaa";
-
-  console.log(aaaaa);
-
-  a();
   return (
     <button
       type="button"
