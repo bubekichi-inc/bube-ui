@@ -1,3 +1,4 @@
 {
-  "eslint.useESLintClass": true
+  "eslint.useESLintClass": true,
+  "eslint.useFlatConfig": true
 }
