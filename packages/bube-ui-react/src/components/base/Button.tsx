@@ -1,5 +1,6 @@
 import React from "react";
 
+const a = 1;
 export interface Props {
   /**
    * Is this the principal call to action on the page?
