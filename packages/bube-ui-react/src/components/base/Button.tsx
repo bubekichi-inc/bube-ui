@@ -1,51 +1,15 @@
 import React from "react";
 export interface Props {
-  /**
-   * Is this the principal call to action on the page?
-   */
-  primary?: boolean;
-  /**
-   * What background color to use
-   */
-  backgroundColor?: string;
-  /**
-   * How large should the button be?
-   */
-  size?: "small" | "medium" | "large";
-  /**
-   * Button contents
-   */
-  label: string;
-  /**
-   * Optional click handler
-   */
-  onClick?: () => void;
+  children: React.ReactNode;
 }
 
 /**
  * Primary UI component for user interaction
  */
-export const Button: React.FC<Props> = ({
-  primary = false,
-  size = "medium",
-  backgroundColor,
-  label,
-  ...props
-}) => {
-  const mode = primary
-    ? "storybook-button--primary"
-    : "storybook-button--secondary";
-
+export const Button: React.FC<Props> = ({ children }) => {
   return (
-    <button
-      type="button"
-      className={["storybook-button", `storybook-button--${size}`, mode].join(
-        " "
-      )}
-      style={{ backgroundColor }}
-      {...props}
-    >
-      {label}
+    <button type="button" className="bg-red-500 text-blue-500 text-2xl">
+      {children}
     </button>
   );
 };
