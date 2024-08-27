@@ -25,6 +25,7 @@ export const Button = forwardRef(
           gap="xs2"
           reverse={iconPosition === "right"}
           nowrap
+          className="text-xs"
         >
           {icon && (
             <WizIcon

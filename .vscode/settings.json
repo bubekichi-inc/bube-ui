@@ -7,5 +7,6 @@
     "source.fixAll": "explicit"
   },
   "eslint.useESLintClass": true,
-  "eslint.useFlatConfig": true
+  "eslint.useFlatConfig": true,
+  "tailwindCSS.emmetCompletions": true
 }
